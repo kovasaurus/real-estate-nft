@@ -28,11 +28,11 @@ To run ZoKrates in use the following docker command (be aware that this is meant
 
 When docker runs it will leave you with running terminal which will be used to compile proof code, setup and export verifier. They enable the further creation of witness and proof. Proof needs to be used when minting new NFT's.
 
-`zokrates compile -i square.code`
-`zokrates setup`
-`zokrates export-verifier`
-`zokrates compute-witness -a 1 1`
-`zokrates generate-proof`
+* `zokrates compile -i square.code`
+* `zokrates setup`
+* `zokrates export-verifier`
+* `zokrates compute-witness -a 1 1`
+* `zokrates generate-proof`
 
 # Contract deployment
 Contract migration is to Rinkeby network can be achieved using the following command: 
